@@ -64,7 +64,7 @@ The application automatically runs a prediction pipeline, stores results in a da
 ---
 
 ## Project Structure
-
+```text
 customer-churn-dashboard
 │
 ├── app.py
@@ -123,10 +123,3 @@ Login to access the dashboard and view churn insights.
 
 ---
 
-Future Enhancements
-Real-time churn prediction
-Advanced ML models
-Customer segmentation analysis
-Email alerts for high-risk customers
-Cloud deployment
-Role-based authentication
