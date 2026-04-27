@@ -101,3 +101,6 @@ customer-churn-dashboard/
     ├── raw/
     ├── processed/
     └── predictions/
+
+---
+⚙️ Installation
