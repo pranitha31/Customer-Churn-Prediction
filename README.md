@@ -64,7 +64,7 @@ The application automatically runs a prediction pipeline, stores results in a da
 ---
 
 ## Project Structure
-```text
+
 customer-churn-dashboard
 │
 ├── app.py
@@ -97,7 +97,6 @@ customer-churn-dashboard
 ├── raw
 ├── processed
 └── predictions
-...
 
 ---
 
