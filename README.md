@@ -1,50 +1,108 @@
-# Customer-Churn-Prediction
+# Customer Churn Prediction 
+A full-stack data analytics project that predicts customer churn using machine learning and displays insights through an interactive web dashboard.
 
-🚀 Customer Churn Prediction & Analytics Dashboard
+The system combines a **Flask web application, machine learning model, SQL database, and automated data pipeline** to analyze customer behavior and predict which customers are likely to leave a service.
 
-A full-stack data analytics application that predicts customer churn using machine learning and presents actionable insights through an interactive web dashboard.
+---
 
-This system integrates a Flask web application, machine learning models, SQL database, and an automated data pipeline to analyze customer behavior and identify customers at risk of leaving.
+## Project Overview
 
-📌 Project Overview
+Customer churn is a major challenge for many businesses. This project analyzes customer data and predicts churn using machine learning.
 
-Customer churn is a critical issue for businesses, directly impacting revenue and growth. This project focuses on analyzing customer data to predict churn and support proactive decision-making.
+The application automatically runs a prediction pipeline, stores results in a database, and visualizes insights in a dashboard.
 
-The application automates the complete workflow—from data processing and prediction to storage and visualization—within a unified platform.
+### Key Capabilities
 
-🔑 Key Capabilities
-Predict customer churn with probability scores
-Identify high-risk customers
-Estimate potential revenue loss
-Visualize churn trends and patterns
-Perform reason-based churn analysis
-✨ Features
-Machine learning-based churn prediction
-Automated data processing and prediction pipeline
-Interactive analytics dashboard
-Churn distribution and trend visualization
-Revenue loss estimation
-Contract-based churn analysis
-Reason analysis for churn behavior
-Secure login and authentication system
-SQL database integration for data management
-🛠️ Tech Stack
-Backend
-Python
-Flask
-Machine Learning
-Scikit-learn
-Data Processing
-Pandas
-NumPy
-Database
-SQLite
-SQLAlchemy
-Visualization
-Plotly
-Frontend
-HTML
-CSS
-Bootstrap
-JavaScript
-📁 Project Structure
+- Predicting customer churn  
+- Identifying high-risk customers  
+- Estimating potential revenue loss  
+- Visualizing churn trends and patterns  
+- Performing reason-based churn analysis  
+
+---
+
+## Features
+
+- Machine Learning churn prediction  
+- Automated ML pipeline execution  
+- Interactive analytics dashboard  
+- Customer churn distribution visualization  
+- Revenue loss estimation  
+- Churn analysis by contract type  
+- Reason analysis for churn  
+- Secure login system  
+- SQL database integration  
+
+---
+
+## Tech Stack
+
+### Backend
+- Python  
+- Flask  
+
+### Machine Learning
+- Scikit-learn  
+
+### Data Processing
+- Pandas  
+- NumPy  
+
+### Database
+- SQLite  
+- SQLAlchemy  
+
+### Visualization
+- Plotly  
+
+### Frontend
+- HTML  
+- CSS  
+- Bootstrap  
+- JavaScript  
+
+---
+
+## Project Structure
+customer-churn-dashboard
+│
+├── app.py
+├── pipeline.py
+├── config.py
+├── step2_predict_churn.py
+├── requirements.txt
+│
+├── CustomerChunSystem
+│ ├── init.py
+│ └── fetch_data.py
+│
+├── templates
+│ ├── login.html
+│ └── dashboard.html
+│
+├── static
+│ ├── css
+│ │ └── style.css
+│ └── js
+│ └── scripts.js
+│
+├── models
+│ └── churn_model.pkl
+│
+├── database
+│ └── churn_database.db
+│
+└── data
+├── raw
+├── processed
+└── predictions
+
+---
+
+## Installation
+
+### 1. Clone the repository
+git clone https://github.com/your-username/customer-churn-dashboard.git
+
+### 2. Navigate to the project folder
+cd customer-churn-dashboard
