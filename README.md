@@ -112,10 +112,7 @@ cd customer-churn-dashboard
 ### 3. Install dependencies
 pip install -r requirements.txt
 
-Running the Application
-
-Start the Flask server:
-
+### 4.Running the Application
 python app.py
 
 Then open your browser and visit:
@@ -123,3 +120,12 @@ Then open your browser and visit:
 http://127.0.0.1:5000
 
 Login to access the dashboard and view churn insights.
+
+---
+Future Enhancements
+Real-time churn prediction
+Advanced ML models
+Customer segmentation analysis
+Email alerts for high-risk customers
+Cloud deployment
+Role-based authentication
