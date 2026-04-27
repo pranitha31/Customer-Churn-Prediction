@@ -102,5 +102,32 @@ customer-churn-dashboard/
     ├── processed/
     └── predictions/
 
----
 ⚙️ Installation
+1. Clone the repository
+git clone https://github.com/your-username/customer-churn-dashboard.git
+2. Navigate to the project folder
+cd customer-churn-dashboard
+3. Install dependencies
+pip install -r requirements.txt
+▶️ Running the Application
+
+Start the Flask server:
+
+python app.py
+
+Then open your browser and visit:
+
+http://127.0.0.1:5000
+
+Login to access the dashboard and view churn insights.
+
+
+These insights help businesses take proactive actions to improve customer retention.
+
+🔮 Future Enhancements
+Real-time churn prediction
+Advanced machine learning models
+Customer segmentation analysis
+Email alerts for high-risk customers
+Cloud deployment (AWS/Azure)
+Role-based authentication
