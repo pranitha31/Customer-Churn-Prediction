@@ -1,41 +1,44 @@
-# Customer Churn Prediction 
-A full-stack data analytics project that predicts customer churn using machine learning and displays insights through an interactive web dashboard.
+# Customer Churn Prediction & Analytics Dashboard
 
-The system combines a **Flask web application, machine learning model, SQL database, and automated data pipeline** to analyze customer behavior and predict which customers are likely to leave a service.
+A full-stack data analytics project that predicts customer churn using machine learning and presents insights through an interactive web dashboard.
 
----
-
-## Project Overview
-
-Customer churn is a major challenge for many businesses. This project analyzes customer data and predicts churn using machine learning.
-
-The application automatically runs a prediction pipeline, stores results in a database, and visualizes insights in a dashboard.
-
-### Key Capabilities
-
-- Predicting customer churn  
-- Identifying high-risk customers  
-- Estimating potential revenue loss  
-- Visualizing churn trends and patterns  
-- Performing reason-based churn analysis  
+The system integrates a **Flask web application, machine learning model, SQL database, and automated data pipeline** to analyze customer behavior and identify customers at risk of leaving.
 
 ---
 
-## Features
+## 📌 Project Overview
 
-- Machine Learning churn prediction  
+Customer churn is a critical challenge for businesses, directly impacting revenue and growth. This project focuses on analyzing customer data and predicting churn using machine learning techniques.
+
+The application automatically runs a prediction pipeline, stores results in a database, and visualizes insights through an intuitive dashboard.
+
+---
+
+## 🚀 Key Capabilities
+
+- Predict customer churn  
+- Identify high-risk customers  
+- Estimate potential revenue loss  
+- Visualize churn trends and patterns  
+- Perform reason-based churn analysis  
+
+---
+
+## ✨ Features
+
+- Machine Learning-based churn prediction  
 - Automated ML pipeline execution  
 - Interactive analytics dashboard  
 - Customer churn distribution visualization  
 - Revenue loss estimation  
 - Churn analysis by contract type  
-- Reason analysis for churn  
+- Reason-based churn insights  
 - Secure login system  
 - SQL database integration  
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Backend
 - Python  
@@ -63,9 +66,10 @@ The application automatically runs a prediction pipeline, stores results in a da
 
 ---
 
-## Project Structure
+## 📂 Project Structure
+
 ```text
-customer-churn-dashboard
+customer-churn-dashboard/
 │
 ├── app.py
 ├── pipeline.py
@@ -73,53 +77,27 @@ customer-churn-dashboard
 ├── step2_predict_churn.py
 ├── requirements.txt
 │
-├── CustomerChunSystem
-│ ├── init.py
-│ └── fetch_data.py
+├── CustomerChunSystem/
+│   ├── __init__.py
+│   └── fetch_data.py
 │
-├── templates
-│ ├── login.html
-│ └── dashboard.html
+├── templates/
+│   ├── login.html
+│   └── dashboard.html
 │
-├── static
-│ ├── css
-│ │ └── style.css
-│ └── js
-│ └── scripts.js
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── scripts.js
 │
-├── models
-│ └── churn_model.pkl
+├── models/
+│   └── churn_model.pkl
 │
-├── database
-│ └── churn_database.db
+├── database/
+│   └── churn_database.db
 │
-└── data
-├── raw
-├── processed
-└── predictions
-
----
-
-
-## Installation
-
-### 1. Clone the repository
-git clone https://github.com/your-username/customer-churn-dashboard.git
-
-### 2. Navigate to the project folder
-cd customer-churn-dashboard
-
-### 3. Install dependencies
-pip install -r requirements.txt
-
-### 4.Running the Application
-python app.py
-
-Then open your browser and visit:
-
-http://127.0.0.1:5000
-
-Login to access the dashboard and view churn insights.
-
----
-
+└── data/
+    ├── raw/
+    ├── processed/
+    └── predictions/
