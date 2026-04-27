@@ -18,7 +18,6 @@ Identify high-risk customers
 Estimate potential revenue loss
 Visualize churn trends and patterns
 Perform reason-based churn analysis
-
 ✨ Features
 Machine learning-based churn prediction
 Automated data processing and prediction pipeline
@@ -29,60 +28,23 @@ Contract-based churn analysis
 Reason analysis for churn behavior
 Secure login and authentication system
 SQL database integration for data management
-
 🛠️ Tech Stack
-
 Backend
 Python
 Flask
-
 Machine Learning
 Scikit-learn
 Data Processing
 Pandas
 NumPy
-
 Database
 SQLite
-
+SQLAlchemy
 Visualization
 Plotly
-
 Frontend
 HTML
 CSS
-
+Bootstrap
 JavaScript
 📁 Project Structure
-customer-churn-dashboard
-│
-├── app.py
-├── pipeline.py
-├── config.py
-├── step2_predict_churn.py
-├── requirements.txt
-│
-├── CustomerChunSystem
-│   ├── __init__.py
-│   └── fetch_data.py
-│
-├── templates
-│   ├── login.html
-│   └── dashboard.html
-│
-├── static
-│   ├── css
-│   │   └── style.css
-│   └── js
-│       └── scripts.js
-│
-├── models
-│   └── churn_model.pkl
-│
-├── database
-│   └── churn_database.db
-│
-└── data
-    ├── raw
-    ├── processed
-    └── predictions
