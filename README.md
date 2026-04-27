@@ -122,6 +122,7 @@ http://127.0.0.1:5000
 Login to access the dashboard and view churn insights.
 
 ---
+
 Future Enhancements
 Real-time churn prediction
 Advanced ML models
